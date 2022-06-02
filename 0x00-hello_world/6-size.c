@@ -8,7 +8,10 @@
  */
 
 int main(void)
-
+/*
+ *  main - Entry point
+ */
+	
 {
 
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
