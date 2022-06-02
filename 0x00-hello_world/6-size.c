@@ -8,9 +8,6 @@
  */
 
 int main(void)
-/*
- *  main - Entry point
- */
 	
 {
 
