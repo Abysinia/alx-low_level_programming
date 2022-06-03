@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * first digit 
- */
+* first digit 
+*/
 
 int main(void)
 {
