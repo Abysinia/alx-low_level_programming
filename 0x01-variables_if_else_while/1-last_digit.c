@@ -2,8 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* first digit 
-*/
+ * main - Prints a text according number
+ *
+ * Return: Always (Success)
+ */
 
 int main(void)
 {
