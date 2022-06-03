@@ -2,17 +2,10 @@
 #include<time.h>
 #include<stdio.h>
 /**
-<<<<<<< HEAD
  * main - Print a text according number 
  * display the last digit 
  * Return: Always (0)
  */
-=======
-* main - Prints a text according number
-*
-* Return: Always (Success)
-*/
->>>>>>> cf84ae2a40ba01e896119f268108c7260aa5924a
 
 int main(void)
 {
