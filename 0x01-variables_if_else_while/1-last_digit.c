@@ -2,7 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * first digit 
+ * main - Print a text according number 
+ * display the last digit 
+ * Return: Always (0)
  */
 
 int main(void)
