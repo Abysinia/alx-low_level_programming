@@ -1,6 +1,7 @@
 #include "main.h"
 /*
- *main - points the string "_putchar"
+ * main - points the string "_putchar" from a char array.
+ * Return: 0 on success.
  *
  */
 
