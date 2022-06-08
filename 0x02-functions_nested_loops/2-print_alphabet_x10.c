@@ -5,6 +5,9 @@
  */
 void print_alphabet_x10(void)
 {
+/**
+ * print function here
+ */
 int i;
 char c;
 
