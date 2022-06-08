@@ -17,7 +17,7 @@ printf("%lu", k);
 if (count == 49)
 putchar('\n');
 else
-}
+{
 printf(", ");
 }
 }
