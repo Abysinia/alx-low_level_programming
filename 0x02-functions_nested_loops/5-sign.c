@@ -4,7 +4,7 @@
  * @n: the number to be checked.
  * Return: 1 if +ve, 0 if zero, -1 if -ve, / if not a digit.
  */
-int print_sign(ing n)
+int print_sign(int n)
 {
 if (n > 0)
 {
