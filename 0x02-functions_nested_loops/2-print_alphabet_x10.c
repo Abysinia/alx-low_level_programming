@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* print new description
+* print_alphabet new description
 * print_alphabet_x10 : repeats the print_alphabet 10 times
 * Return: Always 0.
 */
