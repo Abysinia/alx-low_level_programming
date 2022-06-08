@@ -12,7 +12,7 @@ for (timerow = 0; timerow <= 9; timerow++)
 for (timecol = 0; timecol <= 9; timecol++)
 {
 timedigit = (timerow * timecol);
-if (timedigit == 0)
+if (timecol == 0)
 {
 _putchar(timedigit + '0');
 }
