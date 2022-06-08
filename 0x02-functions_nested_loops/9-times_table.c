@@ -9,7 +9,7 @@ int timerow, timecol, timedigit;
 
 for (timerow = 0; timerow <= 9; timerow++)
 {
-for (timecol = 1; timecol <= 9; timecol++)
+for (timecol = 0; timecol <= 9; timecol++)
 {
 timedigit = (timerow * timecol);
 if (timedigit == 0)
@@ -23,7 +23,7 @@ _putchar(' ');
 _putchar(' ');
 _putchar(timedigit + '0');
 }
-else if (timecol >= 10)
+else if (timedigit >= 10)
 {
 _putchar(',');
 _putchar(' ');
