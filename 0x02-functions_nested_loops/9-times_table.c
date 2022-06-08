@@ -5,7 +5,7 @@
  */
 void times_table(void)
 {
-int timerow, timecol, rimtdigit;
+int timerow, timecol, timedigit;
 
 for (timerow = 0; timerow <= 9; timerow++)
 {
@@ -14,7 +14,7 @@ _putchar('1');
 _putchar(' ');
 for (timecol = 1; timecol <= 9; timecol++)
 {
-timeditit = (timerow * timecol);
+timedigit = (timerow * timecol);
 if ((timedigit / 10) > 0)
 {
 _putchar((timedigit / 10) + '0');
