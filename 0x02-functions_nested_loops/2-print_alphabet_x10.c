@@ -1,13 +1,10 @@
 #include "main.h"
 /**
- * print alpahbet x10
+ * print_alphabet_x10 : repeats the print_alphabet 10 times
  * Return: Always 0.
  */
 void print_alphabet_x10(void)
 {
-/**
- * print function here
- */
 int i;
 char c;
 
