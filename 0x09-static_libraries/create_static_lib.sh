@@ -1,3 +1,3 @@
 #!/bin/bash
 gcc *.c -o
-ar -rcs libmy.a *.o
+ar -rc liball.a *.c
