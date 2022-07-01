@@ -14,11 +14,11 @@ void _print(char *str, int l)
 	i = j = 0;
 	while (i < l)
 	{
-		if (str[i] != '0')
-			j = 1;
-		if (j || i == l - 1)
-			_putchar(str[i]);
-		i++;
+	if (str[i] != '0')
+	j = 1;
+	if (j || i == l - 1)
+	_putchar(str[i]);
+	i++;
 	}
 	_putchar('\n');
 	free(str);
@@ -39,21 +39,21 @@ char *mul(char n, char *num, int num_index, char *dest, int dest_index)
 	mulrem = addrem = 0;
 	for (j = num_index, k = dest_index; j >= 0; j--, k--)
 	{
-		mul = (n - '0') * (num[j] - '0') + mulrem;
-		mulrem = mul / 10;
-		add = (dest[k] - '0') + (mul % 10) + addrem;
-		addrem = add / 10;
-		dest[k] = add % 10 + '0';
+	mul = (n - '0') * (num[j] - '0') + mulrem;
+	mulrem = mul / 10;
+	add = (dest[k] - '0') + (mul % 10) + addrem;
+	addrem = add / 10;
+	dest[k] = add % 10 + '0';
 	}
 	for (addrem += mulrem; k >= 0 && addrem; k--)
 	{
-		add = (dest[k] - '0') + addrem;
-		addrem = add / 10;
-		dest[k] = add % 10 + '0';
+	add = (dest[k] - '0') + addrem;
+	addrem = add / 10;
+	dest[k] = add % 10 + '0';
 	}
 	if (addrem)
 	{
-		return (NULL);
+	return (NULL);
 	}
 	return (dest);
 }
@@ -135,4 +135,4 @@ int main(int argc, char *argv[])
 	}
 	_print(a, ln - 1);
 	return (0);
-} 
+}
