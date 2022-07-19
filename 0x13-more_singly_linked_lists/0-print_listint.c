@@ -15,8 +15,5 @@ printf("%i\n", currentv->n);
 currentv = currentv->next;
 no_nodes++;
 }
-if(no_nodes != NULL){
 return (no_nodes);
-}
- return (0);
 }
